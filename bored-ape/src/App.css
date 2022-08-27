@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "manrope";
+  src: local("manrope"),
+    url(../public/fonts/manrope-Regular.ttf) format("opentype");
+}
+
+body,
+html {
+  font-family: "manrope" !important;
+}
