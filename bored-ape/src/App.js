@@ -1,9 +1,9 @@
 import './App.css';
-import { Box, Text } from "@chakra-ui/react";
+import { Home } from "./pages/Home.js"
 
 function App() {
   return (
-    <Box bg="brand.100">Welcome</Box>
+    <Home />
   );
 }
 

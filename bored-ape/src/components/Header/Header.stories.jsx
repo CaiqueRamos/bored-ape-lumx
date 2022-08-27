@@ -5,7 +5,6 @@ const Template = (args) => <Header {...args} />;
 
 export const _Header = Template.bind({});
 _Header.args = {
-  image: "/file/general/logo.svg",
   gwei: 71,
 };
 
