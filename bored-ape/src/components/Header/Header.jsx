@@ -11,9 +11,11 @@ import {
 import { Search2Icon } from "@chakra-ui/icons";
 import logo from "../../dist/img/logo.svg";
 import rightColumns from "../../dist/img/rightColumns.svg";
+import { useMediaContext } from "../../hooks/useMediaContext.js";
 
 export const Header = ({ gwei, user }) => {
-  return (
+  const { isDesktop } = useMediaContext();
+  return isDesktop ? (
     <Flex background="grey.200" w="full">
       <Flex
         justifyContent="center"
@@ -63,5 +65,7 @@ export const Header = ({ gwei, user }) => {
         </Flex>
       </Flex>
     </Flex>
+  ) : (
+    <div>oi</div>
   );
 };
