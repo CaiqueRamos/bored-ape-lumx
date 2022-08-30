@@ -7,7 +7,7 @@ export const SideBar = (props) => {
   return isDesktop ? (
     <Flex
       background="grey.200"
-      w="22.5"
+      w="79px"
       h="100vh"
       borderTop={`1.5px solid #4E4B66`}
       justifyContent="flex-start"

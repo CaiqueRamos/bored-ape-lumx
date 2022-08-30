@@ -12,5 +12,10 @@ export default {
     avaliation: {
         green: "#4DBC19",
         red: "#D03025"
+    },
+    graphs: {
+        100: "#8775D0",
+        200: "#80CCF4",
+        300: "#98BBAF"
     }
 }
