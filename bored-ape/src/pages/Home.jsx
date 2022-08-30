@@ -9,7 +9,7 @@ import view from "../dist/img/view.svg"
 import calendar from "../dist/img/calendar.svg"
 import scope from "../dist/img/scope.svg"
 import settingsIcon from "../dist/img/settings-icon.svg"
-import { Main, UseInfo } from "../widget/Main/Main.jsx";
+import { Main } from "../widget/Main/Main.jsx";
 
 
 const icons = [
