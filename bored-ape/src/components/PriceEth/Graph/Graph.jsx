@@ -12,8 +12,15 @@ import {
 
 export const Graph = ({ data01, data02, data03 }) => {
   return (
-    <ResponsiveContainer >
-      <ScatterChart height={400}>
+    <ResponsiveContainer>
+      <ScatterChart
+        height={400}
+        margin={{
+          top: 0,
+          right: -40,
+          left: -10,
+        }}
+      >
         <CartesianGrid vertical={false} width="10" />
         <XAxis type="number" dataKey="x" name="stature" unit="" />
         <YAxis

@@ -8,7 +8,7 @@ export const SideBar = (props) => {
     <Flex
       background="grey.200"
       w="79px"
-      h="100vh"
+      h="142vh"
       borderTop={`1.5px solid #4E4B66`}
       justifyContent="flex-start"
       alignItems="center"

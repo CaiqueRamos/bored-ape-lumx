@@ -100,7 +100,7 @@ export const UserInfo = ({ name, userKey }) => {
       </Flex>
     </Flex>
   ) : (
-    <Box m="4" bgColor="grey.200" h="70" w="full">
+    <Box bgColor="grey.200" h="70" w="full">
       <Flex alignItems="center" px="2" py="4">
         <Image
           borderRadius="full"
