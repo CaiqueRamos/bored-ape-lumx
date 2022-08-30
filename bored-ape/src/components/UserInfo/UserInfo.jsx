@@ -7,7 +7,7 @@ import { useClipboard } from "@chakra-ui/react";
 import userIconBoat from "../../dist/img/userIconBoat.svg";
 import userIconDesktop from "../../dist/img/userIconDesktop.svg";
 import userIconGraph from "../../dist/img/userIconGraph.svg";
-import { ValueUserInfo } from "../valueUserInfo/ValueUseInfo";
+import { ValueUserInfo } from "../ValueUserInfo/ValueUseInfo";
 import { useMediaContext } from "../../hooks/useMediaContext.js";
 
 export const UserInfo = ({ name, userKey }) => {

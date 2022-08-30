@@ -1,7 +1,7 @@
 import { Box, HStack, Flex } from "@chakra-ui/react";
 import React from "react";
-import { UserInfo } from "../UserInfo/UserInfo";
-import { PriceEth } from "../PriceEth/PriceEth";
+import { UserInfo } from "../../components/UserInfo/UserInfo";
+import { PriceEth } from "../../components/PriceEth/PriceEth";
 import { useMediaContext } from "../../hooks/useMediaContext.js";
 
 export const Main = () => {

@@ -1,7 +1,7 @@
 import React from "react";
-import { Header } from "../components/Header/Header.jsx";
+import { Header } from "../widget/Header/Header.jsx";
 import { Box, Divider, Flex } from "@chakra-ui/react";
-import { SideBar } from "../components/SideBar/SideBar.jsx";
+import { SideBar } from "../widget/SideBar/SideBar.jsx";
 import { SideIcon } from "../components/SideIcon/SideIcon.jsx";
 
 import planet from "../dist/img/planet.svg"
@@ -9,7 +9,7 @@ import view from "../dist/img/view.svg"
 import calendar from "../dist/img/calendar.svg"
 import scope from "../dist/img/scope.svg"
 import settingsIcon from "../dist/img/settings-icon.svg"
-import { Main, UseInfo } from "../components/Main/Main.jsx";
+import { Main, UseInfo } from "../widget/Main/Main.jsx";
 
 
 const icons = [
