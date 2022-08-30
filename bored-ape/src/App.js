@@ -1,4 +1,3 @@
-import './App.css';
 import { Home } from "./pages/Home"
 import { useMediaQuery } from '@chakra-ui/react';
 import { MEDIA_QUERY_DESKTOP, MEDIA_QUERY_MOBILE } from './constants.js';

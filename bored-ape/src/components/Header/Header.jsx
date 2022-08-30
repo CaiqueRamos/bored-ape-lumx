@@ -11,6 +11,7 @@ import {
 import { Search2Icon } from "@chakra-ui/icons";
 import logo from "../../dist/img/logo.svg";
 import rightColumns from "../../dist/img/rightColumns.svg";
+import columns from "../../dist/img/columns.svg";
 import { useMediaContext } from "../../hooks/useMediaContext.js";
 
 export const Header = ({ gwei, user }) => {
@@ -66,6 +67,36 @@ export const Header = ({ gwei, user }) => {
       </Flex>
     </Flex>
   ) : (
-    <div>oi</div>
+    <Flex background="grey.200" w="full">
+      <Flex
+        justifyContent="center"
+        align="center"
+        w="20"
+        h="18"
+      >
+        <Image src={logo} w="6" h="6" />
+      </Flex>
+      <Flex
+        color="white"
+        py="2.5"
+        w="full"
+        justifyContent="space-between"
+      >
+        <Flex alignItems="center" fontSize="lg" fontWeight="bold" w="full" justifyContent="space-between">
+          <Flex>
+            <Text color="grey.500" fontWeight="bold">
+              {gwei}
+            </Text>
+            &nbsp;
+            <Text color="grey.400">gwei</Text>
+          </Flex>
+
+          <Flex mr="4.5">
+            <Search2Icon color="white" mr="6" />
+            <Image src={columns} />
+          </Flex>
+        </Flex>
+      </Flex>
+    </Flex>
   );
 };

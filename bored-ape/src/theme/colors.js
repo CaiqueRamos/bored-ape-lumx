@@ -5,6 +5,12 @@ export default {
         200: "#262338",
         300: "#4E4B66",
         400: "#6E7191",
-        500: "#F7F7FC"
+        500: "#F7F7FC",
+        600: "#EFF0F6",
+        700: "#FCFCFC"
     },
+    avaliation: {
+        green: "#4DBC19",
+        red: "#D03025"
+    }
 }
